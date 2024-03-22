@@ -1,0 +1,102 @@
+.homePage .container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 38px;
+}
+.homePage {
+  width: 95%;
+}
+
+.homePage .cover {
+  width: 50%;
+  height: 80%;
+}
+
+
+.signup, .Login {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.signup .container, .Login .container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  gap: 15px;
+  width: 50%;
+  /* justify-content: center; */
+}
+.signup img {
+  width: 30px;
+}
+.signupt .logo {
+  text-align: center;
+}
+.createPara {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 10px;
+}
+.choose {
+  color: #1da1f2;
+  line-height: 23.94px;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  text-align: start;
+}
+
+label {
+  text-align: start;
+  font-size: 20px;
+  line-height: 10px;
+}
+.signup .para{
+    font-family:"Segoe UI" ;
+    color:#292828;
+
+}
+
+input {
+  padding: 12px;
+  font-size: 16px;
+  /* border-radius: 10px; */
+  
+}
+input[type="date"] {
+}
+.nextButton {
+  border: none;
+  background-color: #1da1f2;
+  color: white;
+  border-radius: 76px;
+  height: 55px;
+  top: 700px;
+  margin-top: 25px;
+}
+.links a, .links p{
+    text-decoration: none;
+    color: rgb(68, 152, 221);
+    cursor: pointer;
+  font-size: 20px;
+  margin: 0;
+text-align: right;
+   }
+   .links a{
+    padding-left: 20rem;
+   }
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 2px;
+    /* margin-left: 8rem; */
+align-items: flex-end;
+
+}
+.signLink{
+    display: flex;
+    justify-content: flex-end;
+}

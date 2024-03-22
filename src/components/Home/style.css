@@ -1,0 +1,44 @@
+
+.homePage .container .logo{
+    text-align: left;
+}
+ .homePage .container h3, h1, p{
+ text-align: left;
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    Line-height:45px;
+}
+.button p{
+    font-weight: 500;
+}
+.homePage .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 0.1px solid rgb(199, 193, 193);
+    padding:5px ;
+    border-radius: 30px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+h3{
+    font-size: 32px;
+    line-height:30px;
+}
+p{
+    font-size: 14px;
+}
+
+.appLogo img{
+    width: 40px;
+    height: 40px;
+
+}
+.homePage a, Link{
+ text-decoration: none;
+ color: rgb(68, 152, 221);
+}
