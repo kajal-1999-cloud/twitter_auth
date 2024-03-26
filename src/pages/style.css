@@ -13,13 +13,14 @@
   height: 80%;
 }
 
-
-.signup, .Login {
+.signup,
+.Login , .confirm {
   display: flex;
   justify-content: center;
   /* align-items: center; */
 }
-.signup .container, .Login .container {
+.signup .container,
+.Login .container {
   display: flex;
   flex-direction: column;
   margin: 20px;
@@ -53,17 +54,15 @@ label {
   font-size: 20px;
   line-height: 10px;
 }
-.signup .para{
-    font-family:"Segoe UI" ;
-    color:#292828;
-
+.signup .para {
+  font-family: "Segoe UI";
+  color: #292828;
 }
 
 input {
   padding: 12px;
   font-size: 16px;
   /* border-radius: 10px; */
-  
 }
 input[type="date"] {
 }
@@ -76,27 +75,37 @@ input[type="date"] {
   top: 700px;
   margin-top: 25px;
 }
-.links a, .links p{
-    text-decoration: none;
-    color: rgb(68, 152, 221);
-    cursor: pointer;
+
+.confirmButton {
+  border: none;
+  background-color: #1da1f2;
+  color: white;
+  border-radius: 72px;
+  padding: 10px 44%;
+  height: 40px;
+  /* top: 700px; */
+  margin-top: 25px;
+}
+.links a,
+.links p {
+  text-decoration: none;
+  color: rgb(68, 152, 221);
+  cursor: pointer;
   font-size: 20px;
   margin: 0;
-text-align: right;
-   }
-   .links a{
-    padding-left: 20rem;
-   }
-.links{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 2px;
-    /* margin-left: 8rem; */
-align-items: flex-end;
-
+  text-align: right;
 }
-.signLink{
-    display: flex;
-    justify-content: flex-end;
+.links a {
+  padding-left: 20rem;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 2px;
+  align-items: flex-end;
+}
+.signLink {
+  display: flex;
+  justify-content: flex-end;
 }

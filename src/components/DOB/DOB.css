@@ -1,0 +1,12 @@
+.DOB select{
+    padding: 10px 30px;
+    margin: 2px 10px;
+    width: 25%;
+}
+.DOB{
+    width: 100%;
+    /* background-color: aliceblue; */
+}
+.DOB .month{
+    width: 37%;
+}
